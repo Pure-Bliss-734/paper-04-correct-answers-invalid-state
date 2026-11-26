@@ -1,0 +1,74 @@
+{
+  "deepseek_sanity": {
+    "production": "b20bfd038e62ee55d8f18515ea585a791a53b64df67300076a0acb44b6892365",
+    "reference": "b20bfd038e62ee55d8f18515ea585a791a53b64df67300076a0acb44b6892365"
+  },
+  "deterministic_validity_suite": {
+    "production": "897758355399887a609c4d43af4ba9ba37a21609bb65726e18a3ade8391b4bb7",
+    "reference": "897758355399887a609c4d43af4ba9ba37a21609bb65726e18a3ade8391b4bb7"
+  },
+  "executor": "18c14f2f2194c7172468ea5650151da5c1b951d132890b41f418f509c76dd679",
+  "primary": {
+    "production": "42b35ccae9ba1234c71b36f5c50c8f614ff9e3e4d7feec79053630222d6bbbfd",
+    "reference": "dde7165222aced607e80f46c2a1397b7dd5bcdff35cfc6c438252851ef93b055"
+  },
+  "primary_budget300": {
+    "production": "fa4ff30317d241e16a842b463147034ad4e64d08115d4c47e5f9ea394d690aee",
+    "reference": "46fcf94d1840489ad9960fa9adb56df99a5a512851477f9e8552e257372535f1"
+  },
+  "qwen": {
+    "production": "04c45c84772307ff7eae92cd735c36c2bf0f95b0b66f96549217da5e4b4ece7e",
+    "reference": "df3661cbbb57d7b0c8f5942bd261da24e6045091c9849ffb7eed74a3da9569ef"
+  },
+  "qwen_budget300": {
+    "production": "a811240e9a488cd43f24017da3a286d70a21c415b62cacbd5398ddfdccf51ca1",
+    "reference": "a811240e9a488cd43f24017da3a286d70a21c415b62cacbd5398ddfdccf51ca1"
+  },
+  "representation": {
+    "all_pass": false,
+    "representations": {
+      "rolling_summary_native": {
+        "answer_state_consistency_v2": false,
+        "answer_success_v2": true,
+        "carried_state_validity_v2": false,
+        "exclusion_safety_v2": true,
+        "intrinsic_state_validity_v2": false,
+        "joint_answer_state_success_v2": false,
+        "output_bearing_present_v2": false,
+        "required_state_completeness_v2": false,
+        "state_parseable_v2": true,
+        "state_reason_codes_v2": [
+          "ANSWER_UNSUPPORTED:API_01_10BBFA",
+          "ANSWER_UNSUPPORTED:API_01_C1FFF0",
+          "ANSWER_UNSUPPORTED:src/api/unit_01_f1c1da.py",
+          "MISSING_REQUIRED_STATE",
+          "NO_OUTPUT_BEARING_STATE"
+        ]
+      },
+      "ssr_native": {
+        "answer_state_consistency_v2": true,
+        "answer_success_v2": true,
+        "carried_state_validity_v2": true,
+        "exclusion_safety_v2": true,
+        "intrinsic_state_validity_v2": true,
+        "joint_answer_state_success_v2": true,
+        "output_bearing_present_v2": true,
+        "required_state_completeness_v2": true,
+        "state_parseable_v2": true,
+        "state_reason_codes_v2": []
+      },
+      "visible_carry_native": {
+        "answer_state_consistency_v2": true,
+        "answer_success_v2": true,
+        "carried_state_validity_v2": true,
+        "exclusion_safety_v2": true,
+        "intrinsic_state_validity_v2": true,
+        "joint_answer_state_success_v2": true,
+        "output_bearing_present_v2": true,
+        "required_state_completeness_v2": true,
+        "state_parseable_v2": true,
+        "state_reason_codes_v2": []
+      }
+    }
+  }
+}

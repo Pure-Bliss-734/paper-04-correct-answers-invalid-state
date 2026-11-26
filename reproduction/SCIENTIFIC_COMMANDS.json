@@ -1,0 +1,17 @@
+{
+  "commands": [
+    [
+      "{python}",
+      "scripts/reproduce_public_release.py"
+    ],
+    [
+      "{python}",
+      "-m",
+      "scaffold.test_replay"
+    ],
+    [
+      "{python}",
+      "scripts/test_metric_v2_properties.py"
+    ]
+  ]
+}

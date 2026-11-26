@@ -1,0 +1,257 @@
+{
+  "deepseek_v4pro": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "deepseek-v4-pro",
+      "stream": false,
+      "temperature": 0,
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "transport_retry": {
+      "backoff_seconds": [
+        2.0
+      ],
+      "max_sleep_seconds": 2.0,
+      "max_transport_attempts": 2,
+      "respect_retry_after": false,
+      "retryable_http_statuses": [
+        408,
+        409,
+        425,
+        429,
+        500,
+        502,
+        503,
+        504
+      ]
+    }
+  },
+  "kimi_k26": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "kimi-k2.6",
+      "stream": false,
+      "temperature": 0.6,
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "transport_retry": {
+      "backoff_seconds": [
+        2.0
+      ],
+      "max_sleep_seconds": 2.0,
+      "max_transport_attempts": 2,
+      "respect_retry_after": false,
+      "retryable_http_statuses": [
+        408,
+        409,
+        425,
+        429,
+        500,
+        502,
+        503,
+        504
+      ]
+    }
+  },
+  "one_shot": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "deepseek-v4-pro",
+      "stream": false,
+      "temperature": 0,
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "openrouter_claude48": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "anthropic/claude-opus-4.8",
+      "plugins": [
+        {
+          "enabled": false,
+          "id": "context-compression"
+        }
+      ],
+      "provider": {
+        "allow_fallbacks": false,
+        "order": [
+          "anthropic"
+        ],
+        "require_parameters": true
+      },
+      "reasoning": {
+        "effort": "none"
+      },
+      "stream": false
+    },
+    "transport_retry": {
+      "backoff_seconds": [
+        2.0,
+        4.0,
+        8.0,
+        16.0
+      ],
+      "max_sleep_seconds": 180.0,
+      "max_transport_attempts": 5,
+      "respect_retry_after": true,
+      "retryable_http_statuses": [
+        408,
+        429,
+        500,
+        502,
+        503,
+        504
+      ]
+    }
+  },
+  "openrouter_gpt55": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "openai/gpt-5.5",
+      "plugins": [
+        {
+          "enabled": false,
+          "id": "context-compression"
+        }
+      ],
+      "provider": {
+        "allow_fallbacks": false,
+        "order": [
+          "openai"
+        ],
+        "require_parameters": true
+      },
+      "reasoning": {
+        "effort": "none"
+      },
+      "stream": false
+    },
+    "transport_retry": {
+      "backoff_seconds": [
+        2.0,
+        4.0,
+        8.0,
+        16.0
+      ],
+      "max_sleep_seconds": 180.0,
+      "max_transport_attempts": 5,
+      "respect_retry_after": true,
+      "retryable_http_statuses": [
+        408,
+        429,
+        500,
+        502,
+        503,
+        504
+      ]
+    }
+  },
+  "openrouter_qwen3_coder_alibaba_supplement": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "qwen/qwen3-coder",
+      "plugins": [
+        {
+          "enabled": false,
+          "id": "context-compression"
+        }
+      ],
+      "provider": {
+        "allow_fallbacks": false,
+        "order": [
+          "alibaba"
+        ],
+        "require_parameters": true
+      },
+      "stream": false,
+      "temperature": 0,
+      "top_p": 1
+    },
+    "transport_retry": {
+      "backoff_seconds": [
+        2.0,
+        4.0,
+        8.0,
+        16.0
+      ],
+      "max_sleep_seconds": 180.0,
+      "max_transport_attempts": 5,
+      "respect_retry_after": true,
+      "retryable_http_statuses": [
+        408,
+        429,
+        500,
+        502,
+        503,
+        504
+      ]
+    }
+  },
+  "pilot/deepseek-v4-pro": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "deepseek-v4-pro",
+      "stream": false,
+      "temperature": 0,
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "pilot/kimi-k2.6": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "kimi-k2.6",
+      "stream": false,
+      "temperature": 0.6,
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "pilot/qwen3.7-max": {
+    "payload": {
+      "enable_search": false,
+      "enable_thinking": false,
+      "max_tokens": 4096,
+      "model": "qwen3.7-max",
+      "stream": false,
+      "temperature": 0.7
+    }
+  },
+  "qwen37max": {
+    "payload": {
+      "max_tokens": 4096,
+      "model": "qwen3.7-max",
+      "stream": false,
+      "temperature": 0.7,
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "transport_retry": {
+      "backoff_seconds": [
+        2.0
+      ],
+      "max_sleep_seconds": 2.0,
+      "max_transport_attempts": 2,
+      "respect_retry_after": false,
+      "retryable_http_statuses": [
+        408,
+        409,
+        425,
+        429,
+        500,
+        502,
+        503,
+        504
+      ]
+    }
+  }
+}

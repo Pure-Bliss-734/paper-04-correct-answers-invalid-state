@@ -1,0 +1,168 @@
+[
+  {
+    "condition_id": "openrouter_gpt55",
+    "expected_exact_model_string": "openai/gpt-5.5-20260423",
+    "fallback_enabled": false,
+    "openrouter_used": true,
+    "provider": "openrouter",
+    "provider_route_hint": "openai",
+    "requested_model": "openai/gpt-5.5",
+    "request_controls": {
+      "max_tokens": 4096,
+      "provider": {
+        "send_mode": "explicit",
+        "value": {
+          "allow_fallbacks": false
+        }
+      },
+      "reasoning_or_thinking": {
+        "send_mode": "explicit",
+        "value": {
+          "reasoning": {
+            "effort": "none"
+          }
+        }
+      },
+      "stream": {
+        "send_mode": "explicit",
+        "value": false
+      },
+      "temperature": {
+        "send_mode": "omitted",
+        "value": null
+      },
+      "tools": "disabled",
+      "web": "disabled"
+    }
+  },
+  {
+    "condition_id": "openrouter_claude48",
+    "expected_exact_model_string": "anthropic/claude-4.8-opus-20260528",
+    "fallback_enabled": false,
+    "openrouter_used": true,
+    "provider": "openrouter",
+    "provider_route_hint": "anthropic",
+    "requested_model": "anthropic/claude-opus-4.8",
+    "request_controls": {
+      "max_tokens": 4096,
+      "provider": {
+        "send_mode": "explicit",
+        "value": {
+          "allow_fallbacks": false
+        }
+      },
+      "reasoning_or_thinking": {
+        "send_mode": "explicit",
+        "value": {
+          "reasoning": {
+            "effort": "none"
+          }
+        }
+      },
+      "stream": {
+        "send_mode": "explicit",
+        "value": false
+      },
+      "temperature": {
+        "send_mode": "omitted",
+        "value": null
+      },
+      "tools": "disabled",
+      "web": "disabled"
+    }
+  },
+  {
+    "condition_id": "deepseek_v4pro",
+    "fallback_enabled": false,
+    "openrouter_used": false,
+    "provider": "deepseek",
+    "requested_model": "deepseek-v4-pro",
+    "request_controls": {
+      "max_tokens": 4096,
+      "reasoning_or_thinking": {
+        "send_mode": "explicit",
+        "value": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "stream": {
+        "send_mode": "explicit",
+        "value": false
+      },
+      "temperature": {
+        "send_mode": "explicit",
+        "value": 0
+      },
+      "tools": "disabled",
+      "web": "disabled"
+    }
+  },
+  {
+    "condition_id": "kimi_k26",
+    "fallback_enabled": false,
+    "openrouter_used": false,
+    "provider": "moonshot",
+    "requested_model": "kimi-k2.6",
+    "request_controls": {
+      "max_tokens": 4096,
+      "reasoning_or_thinking": {
+        "send_mode": "explicit",
+        "value": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "stream": {
+        "send_mode": "explicit",
+        "value": false
+      },
+      "temperature": {
+        "send_mode": "explicit",
+        "value": 0.6
+      },
+      "tools": "disabled",
+      "web": "disabled"
+    }
+  },
+  {
+    "condition_id": "qwen37max",
+    "fallback_enabled": false,
+    "openrouter_used": false,
+    "provider": "dashscope",
+    "requested_model": "qwen3.7-max",
+    "request_controls": {
+      "max_tokens": 4096,
+      "reasoning_or_thinking": {
+        "send_mode": "explicit",
+        "value": {
+          "thinking": {
+            "type": "disabled"
+          }
+        }
+      },
+      "stream": {
+        "send_mode": "explicit",
+        "value": false
+      },
+      "temperature": {
+        "send_mode": "explicit",
+        "value": 0.7
+      },
+      "tools": "disabled",
+      "web": "disabled"
+    }
+  },
+  {
+    "condition_id": "openrouter_qwen3_coder_alibaba_supplement",
+    "requested_model": "qwen/qwen3-coder",
+    "expected_returned_model": "qwen/qwen3-coder-480b-a35b-07-25",
+    "provider_order": [
+      "alibaba"
+    ],
+    "provider_name": "Alibaba",
+    "provider_tag": "alibaba/opensource"
+  }
+]

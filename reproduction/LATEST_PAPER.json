@@ -1,0 +1,12 @@
+{
+  "authors": [
+    "Jiangwei Xue",
+    "Zhida Qin",
+    "Yuda Bi"
+  ],
+  "doi": "10.5281/zenodo.22720976",
+  "latex_sha256": "9577f6f1351320dd8048d2b617a7ef68b9a6cb53f58ca36c52084cfba90589f8",
+  "pdf_sha256": "4ba684c3c7cf5d28e56d7dd00d7af35cbbb83c0f49f86f02fde165b2ba421a3c",
+  "repository": "https://github.com/Pure-Bliss-734/paper-04-correct-answers-invalid-state",
+  "title": "When Correct Answers Carry Invalid State: Evaluating Explicit State Carriers in Stateful LLM Agents"
+}
