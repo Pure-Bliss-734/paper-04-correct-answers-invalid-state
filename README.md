@@ -4,4 +4,8 @@
 
 The distribution includes saved responses, bounded state, scorers and receipts. Availability of intermediate model responses varies across the historical runs.
 
-The release contains the manuscript PDF and the reproduction ZIP. Material-specific licenses and source notices are supplied with the reproduction materials.
+The release contains the manuscript PDF and the reproduction ZIP.
+
+## License
+
+The authors license their manuscript under **CC BY 4.0** and their code under **MIT**. See the [license scope](LICENSE.md) for research records and third-party materials.
